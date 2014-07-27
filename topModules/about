@@ -1,0 +1,24 @@
+Модуль Util и наследование
+
+- util.inspect(сщтыщду) Return a string representation of object, which is useful for debugging.
+- util.formatR eturns a formatted string using the first argument as a printf-like format.
+%s - String.
+%d - Number (both integer and float).
+%j - JSON.
+% - single percent sign ('%'). This does not consume an argument.
+- OOP!!! util.inherits наследования кролик наследует энеимал
+
+Модуль console
+
+- console использует util.inspect для вывода
+- глобальная переменная
+- console.log\info
+- console.error\warn
+- у них разные потоки выводов. нормальный и ошибка
+
+Ошибки
+
+- создали сови ошибки, наследовали класс error, настроили имя, статус
+
+Событийная модель
+

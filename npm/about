@@ -1,0 +1,24 @@
+Общее по NPM
+
+- npm init
+- npm adduser
+- npm publich
+- npm search
+- npm install
+- npm update
+- npm remove
+- npm help
+
+
+Cтруктура пакета NPM
+
+- npm i https://github.com/onikiienko/funcTest
+- будет ставить из devDependencies если вводим npm config
+- packsge.json main - точка входа в модуль
+- в scripts можно добавлять команды типа npm test -> make test
+- npm help json
+
+Глобальные модули
+
+- npm -g express
+- глобальный не доступен в файлах require не сработает

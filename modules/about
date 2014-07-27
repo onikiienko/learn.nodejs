@@ -1,0 +1,11 @@
+- подключение через require.js
+- переменные: var, exports, global
+- виды подумлей js, node, json
+- модуль DIR/index
+
+- объект module
+- using of module.parent
+- module.exports = function чтоб сделать user.User
+- кэшировнаие модулей
+- node_modules, порядок поиска
+- фабрика, передача параметров в модуль var log = require('logger')(module);
