@@ -1,7 +1,9 @@
 Модуль Util и наследование
 
-- util.inspect(сщтыщду) Return a string representation of object, which is useful for debugging.
-- util.formatR eturns a formatted string using the first argument as a printf-like format.
+- util.inspect(сщтыщду) Return a string representation of object, which is useful
+for debugging.
+- util.formatR eturns a formatted string using the first argument as a
+printf-like format.
 %s - String.
 %d - Number (both integer and float).
 %j - JSON.
@@ -22,3 +24,18 @@
 
 Событийная модель
 
+- EventEmitter. всё как в js-browser. можно выводить список событий на элементе
+и нужно следить за утечками памяти через heapdupm
+Events
+Class: events.EventEmitter
+emitter.addListener(event, listener)
+emitter.on(event, listener)
+emitter.once(event, listener)
+emitter.removeListener(event, listener)
+emitter.removeAllListeners([event])
+emitter.setMaxListeners(n)
+emitter.listeners(event)
+emitter.emit(event, [arg1], [arg2], [...])
+Class Method: EventEmitter.listenerCount(emitter, event)
+Event: 'newListener'
+Event: 'removeListener'
