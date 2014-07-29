@@ -1,0 +1,11 @@
+intro
+
+- http.Server -> net.Server -> EventEmitter
+- listning, connection, request
+
+ echo-server
+
+ - res.statusCode
+ - res.setHeader
+ - url.parse(req.url, true)
+ - res.end('Page Not Found 404');
